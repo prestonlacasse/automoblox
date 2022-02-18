@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M9 | Automoblox</title>
+    <!-- Link the Bootstrap CSS files-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Link the FontAwesome icon library for the review star icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Link to custom style sheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Build navigation using bootstrap components -->
+    <!-- ===== NAVIGATION START ===== -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <!-- Not my image. It was given to use based on project guidelines -->
+            <img
+              class="img-fluid"
+              src="img/images/automoblox_logo_png.png"
+              width="150"
+              alt="Automoblox Logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Styles
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="c9.html">C9</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="m9.html">M9</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="s9r.html">S9R</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="t9.html">T9</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="x9x.html">X9X</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="search-btn" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- ===== NAVIGATION END ===== -->
+    <h1 class="hero-banner m9-banner">QUALITY IS BETTER WITH AUTOMOBLOX!</h1>
+    <!-- ===== SECTION ONE START ===== -->
+    <section>
+      <!-- Product showcase -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-lg-6">
+            <!-- Not my image. It was given to use based on project guidelines -->
+            <img
+              class="product-img img-fluid"
+              src="img/images/m9_large.jpg"
+              alt="M9 Car"
+            />
+          </div>
+          <div class="col-sm-12 col-lg-6">
+            <h1 class="product-header">M9 Automoblox</h1>
+            <!-- Breadcrumb implementation -->
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a class="b-item-m9" href="index.html">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a class="b-item-m9" href="#">Styles</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">M9</li>
+              </ol>
+            </nav>
+            <h2 class="product-price">$39.99</h2>
+            <p class="product-description">
+              A remarkable luxury toy car that will keep kids busy for hours.
+              <a class="description-link" href="#description">Learn More</a>
+            </p>
+            <label for="items">Quantity</label>
+            <input
+              type="number"
+              id="items"
+              name="items"
+              min="1"
+              max="100"
+              placeholder="1"
+            />
+            <button type="button" class="btn buy-button-m9">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== SECTION ONE END ===== -->
+    <!-- ===== SECTION TWO START ===== -->
+    <section class="feature-section">
+      <div class="feature-product">
+        <div class="row">
+          <div class="col-sm-12 col-lg-4">
+            <div class="spec-card">
+              <h2 class="product-info-m9">Speed</h2>
+              <p class="product-info-p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                vitae urna dictum, imperdiet enim eu, eleifend ex.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4">
+            <div class="spec-card">
+              <h2 class="product-info-m9">Skill</h2>
+              <p class="product-info-p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                vitae urna dictum, imperdiet enim eu, eleifend ex.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4">
+            <div class="spec-card">
+              <h2 class="product-info-m9">Quality</h2>
+              <p class="product-info-p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                vitae urna dictum, imperdiet enim eu, eleifend ex.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== SECTION TWO END ===== -->
+    <!-- ===== SECTION THREE START ===== -->
+    <!-- This section is responsive using CSS Flexbox instead of using Bootstrap Grid -->
+    <section>
+      <div class="flex-container">
+        <div class="description-container" id="description">
+          <h1 class="description-header">Description</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+            eos qui ratione voluptatem sequi nesciunt.
+          </p>
+        </div>
+        <div class="related-container">
+          <h1 class="related-title">Related</h1>
+          <div class="flex-product">
+            <a href="c9.html">
+              <!-- Not my image. It was given to use based on project guidelines -->
+              <img
+                class="related-img"
+                src="img/images/c9_small.jpg"
+                alr="C9 Car"
+              />
+            </a>
+            <h5 class="related-header">C9</h5>
+            <h5 class="related-price">$39.99</h5>
+            <button class="view-product-m9" type="button" href="c9.html">
+              <a class="btn-tag" href="c9.html"> More </a>
+            </button>
+          </div>
+          <div class="flex-product">
+            <a href="s9r.html">
+              <!-- Not my image. It was given to use based on project guidelines -->
+              <img
+                class="related-img"
+                src="img/images/s9r_small.jpg"
+                alr="S9R Car"
+              />
+            </a>
+            <h5 class="related-header">S9R</h5>
+            <h5 class="related-price">$59.99</h5>
+            <button class="view-product-m9" type="button" href="s9r.html">
+              <a class="btn-tag" href="s9r.html"> More </a>
+            </button>
+          </div>
+          <div class="flex-product">
+            <a href="t9.html">
+              <!-- Not my image. It was given to use based on project guidelines -->
+              <img
+                class="related-img"
+                src="img/images/t9_small.jpg"
+                alr="T9 Car"
+              />
+            </a>
+            <h5 class="related-header">T9</h5>
+            <h5 class="related-price">$39.99</h5>
+            <button class="view-product-m9" type="button">
+              <a class="btn-tag" href="t9.html"> More </a>
+            </button>
+          </div>
+          <div class="flex-product">
+            <a href="x9x.html">
+              <!-- Not my image. It was given to use based on project guidelines -->
+              <img
+                class="related-img"
+                src="img/images/x9x_small.jpg"
+                alr="X9X Car"
+              />
+            </a>
+            <h5 class="related-header">X9X</h5>
+            <h5 class="related-price">$79.99</h5>
+            <button class="view-product-m9" type="button" href="x9x.html">
+              <a class="btn-tag" href="x9x.html"> More </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== SECTION THREE END ===== -->
+    <!-- ===== SECTION FOUR START ===== -->
+    <section>
+      <h2 class="review-header">Customer Reviews</h2>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Best toy car on the market!!!
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="star-icon">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </div>
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              augue velit, feugiat quis elementum eget, ultricies sed turpis.
+              Suspendisse quis accumsan augue. Morbi nibh nisl, pellentesque id
+              lectus et, scelerisque rhoncus nisl.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              A little pricey but amazing quality.
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="star-icon">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              augue velit, feugiat quis elementum eget, ultricies sed turpis.
+              Suspendisse quis accumsan augue. Morbi nibh nisl, pellentesque id
+              lectus et, scelerisque rhoncus nisl.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              Quality is out of this world!
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="star-icon">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </div>
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              augue velit, feugiat quis elementum eget, ultricies sed turpis.
+              Suspendisse quis accumsan augue. Morbi nibh nisl, pellentesque id
+              lectus et, scelerisque rhoncus nisl.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== SECTION THREE START ===== -->
+    <!-- FOOTER START -->
+    <div class="footer-container">
+      <h1 class="footer-header">Automoblox</h1>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link-footer" href="c9.html">C9</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link-footer" href="m9.html">M9</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link-footer" href="s9r.html">S9R</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link-footer" href="t9.html">T9</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link-footer" href="x9x.html">X9X</a>
+        </li>
+      </ul>
+      <div class="text-center">© 2021 Copyright Automoblox</div>
+    </div>
+    <!-- FOOTER END -->
+    <!-- Link to the JS Bootstrap files -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

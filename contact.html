@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C9 | Automoblox</title>
+    <!-- Link the Bootstrap CSS files-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Link the FontAwesome icon library for the review star icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Link to custom style sheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Build navigation using bootstrap components -->
+    <!-- ===== NAVIGATION START ===== -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <!-- Not my image. It was given to use based on project guidelines -->
+            <img
+              class="img-fluid"
+              src="img/images/automoblox_logo_png.png"
+              width="150"
+              alt="Automoblox Logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Styles
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="c9.html">C9</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="m9.html">M9</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="s9r.html">S9R</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="t9.html">T9</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="x9x.html">X9X</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="search-btn" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- ===== NAVIGATION END ===== -->
+
+    <!-- FORM SERCTION START -->
+    <section class="contact-form">
+      <div class="flex-container">
+        <div class="description-container" id="description">
+          <img
+            class="img-fluid x9x-car"
+            src="img/images/x9x_large.jpg"
+            alt="X9X Car"
+          />
+        </div>
+        <div class="related-container">
+          <form>
+            <h2 class="contact-header">Contact Automoblox</h2>
+            <div class="wrap-input">
+              <input
+                class="name"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Name"
+              />
+            </div>
+            <div class="wrap-input">
+              <input
+                class="name"
+                type="text"
+                id="email"
+                name="email"
+                placeholder="Email"
+              />
+            </div>
+            <div class="wrap-input">
+              <input
+                class="name"
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Subject"
+              />
+            </div>
+            <div class="wrap-input">
+              <textarea
+                class="name message"
+                name="message"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <div class="wrap-input">
+              <input class="submit" type="submit" value="Send Email" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- FORM SERCTION END -->
+
+    <!-- FOOTER START -->
+    <div class="footer-container">
+      <h1 class="footer-header">Automoblox</h1>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link-footer" href="c9.html">C9</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link-footer" href="m9.html">M9</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link-footer" href="s9r.html">S9R</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link-footer" href="t9.html">T9</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link-footer" href="x9x.html">X9X</a>
+        </li>
+      </ul>
+      <div class="text-center">© 2021 Copyright Automoblox</div>
+    </div>
+    <!-- FOOTER END -->
+    <!-- Link to the JS Bootstrap files -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Automoblox</title>
+    <!-- Link to the Bootstrap 5 files -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Link to custom style sheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Build navigation using bootstrap components -->
+    <!-- ===== NAVIGATION START =====-->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light nav-bg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              class="img-fluid"
+              src="img/images/automoblox_logo_png.png"
+              width="150"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Styles
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="c9.html">C9</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="m9.html">M9</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="s9r.html">S9R</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="t9.html">T9</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="x9x.html">X9X</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="search-btn" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- ===== NAVIGATION END =====-->
+    <h1 class="hero-banner">QUALITY IS BETTER WITH AUTOMOBLOX!</h1>
+    <!-- ===== HERO START =====-->
+    <main>
+      <h3 class="hero-subheader">Automoblox</h3>
+      <h1 class="hero-header">When luxury meet toys.</h1>
+      <img class="hero-img img-fluid" src="img/Hero-background-home.png" />
+    </main>
+    <!-- ===== HERO END =====-->
+    <!-- ===== SECTION ONE START ===== -->
+    <section class="card-section">
+      <div class="container">
+        <h2 class="card-section-header">More toys. More play.</h2>
+        <div class="row">
+          <div class="col-sm-6 col-lg-3">
+            <div class="card">
+              <i class="far fa-hand-paper"></i>
+              <div class="card-body">
+                <h2 class="card-headers">M9 Car</h2>
+                <p class="card-text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <i class="far fa-hand-paper"></i>
+                <h2 class="card-headers">S9R Car</h2>
+                <p class="card-text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <h2 class="card-headers">T9 Car</h2>
+                <p class="card-text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <h2 class="card-headers">X9X Car</h2>
+                <p class="card-text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== SECTION ONE END ===== -->
+    <!-- ===== SECTION TWO START ===== -->
+    <h2 class="section-two-subheader">Featured Cars</h2>
+    <h1 class="section-two-header">More ways to play.</h1>
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/SLIDE-1.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="img/SLIDE-2.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="img/SLIDE-3.png" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- ===== SECTION TWO END ===== -->
+    <!-- FOOTER START -->
+    <div class="footer-container">
+      <h1 class="footer-header">Automoblox</h1>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link-footer" href="c9.html">C9</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link-footer" href="m9.html">M9</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link-footer" href="s9r.html">S9R</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link-footer" href="t9.html">T9</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link-footer" href="x9x.html">X9X</a>
+        </li>
+      </ul>
+      <div class="text-center">© 2021 Copyright Automoblox</div>
+    </div>
+    <!-- FOOTER END -->
+    <!-- Link the Bootstrap 5 JS fiels -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

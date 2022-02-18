@@ -1,0 +1,741 @@
+/* @font-face import */
+/* This is a free font I found online. I do not own the rights to this font .*/
+/* You can use them freely in your products & projects - print or digital, commercial or otherwise. */
+@font-face {
+  font-family: "Harabara";
+  src: local("Harabara"), url("../fonts/Harabara.ttf") format("truetype");
+  font-style: normal;
+}
+
+body {
+  background-color: white;
+  color: rgb(31, 31, 31);
+}
+
+/* ========== INDEX STYLE START ========== */
+/* === NAV STYLE === */
+.navbar {
+  background-color: white;
+}
+
+.nav-bg {
+  background-color: white;
+}
+
+.nav-link {
+  font-size: larger;
+  margin-left: 20px;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.nav-link:hover {
+  color: rgb(31, 31, 31);
+}
+
+.dropdown-item:hover {
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
+
+.dropdown-item:active {
+  background-color: rgb(31, 31, 31);
+}
+
+.search-btn {
+  border: solid 2px rgb(31, 31, 31);
+  background-color: white;
+  border-radius: 10px;
+  color: rgb(31, 31, 31);
+  transition: all 0.2s;
+}
+
+.search-btn:hover {
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
+
+/* === HERO STYLE === */
+.hero-banner {
+  font-family: "Harabara";
+  text-align: center;
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
+
+.hero-subheader {
+  font-family: "Harabara";
+  margin-top: 30px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.hero-header {
+  font-family: "Harabara";
+  margin-top: 10px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.hero-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 1200px;
+  float: center;
+}
+
+/* === SECTION 1 STYLE === */
+.card-section {
+  padding: 30px;
+  background-color: white;
+  margin: auto;
+}
+
+.card-section-header {
+  font-family: "Harabara";
+  color: rgb(31, 31, 31);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: white;
+  color: rgb(31, 31, 31);
+  margin: 20px;
+  padding: 10px;
+  border-radius: 50px;
+  filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.103));
+  transition: all 0.5s;
+}
+
+.card:hover {
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
+
+.card-headers {
+  font-family: "Harabara";
+  background-color: none;
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+}
+
+/* === SECTION 2 STYLE === */
+.section-two-subheader {
+  font-family: "Harabara";
+  margin-top: 30px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.section-two-header {
+  font-family: "Harabara";
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.carousel-control-prev {
+  background-color: rgba(0, 0, 0, 0.493);
+  width: 50px;
+}
+
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.493);
+  width: 50px;
+}
+
+/* === FOOTER STYLE === */
+.footer-container {
+  margin-top: 50px;
+  background-color: rgb(31, 31, 31);
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.text-center {
+  margin-top: 20px;
+}
+
+.nav-link-footer {
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.nav-link-footer:hover {
+  color: rgb(129, 129, 129);
+}
+
+/* ========== INDEX STYLE END ========== */
+
+/* ================================================================== */
+
+/* ========== PRODUCT PAGE ONE(C9) STYLE START ========== */
+.c9-banner {
+  font-family: "Harabara";
+  background-color: rgb(228, 46, 46);
+}
+
+/* ===== SECTION ONE STYLE START ===== */
+
+/* Product image animation style */
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.product-img {
+  margin-top: 70px;
+  animation: 1s ease-out 0s 1 slideIn;
+}
+
+.product-header {
+  margin-top: 50px;
+  font-family: "Harabara";
+}
+
+.b-item-c9 {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(31, 31, 31);
+}
+
+.b-item-c9:hover {
+  color: rgb(228, 46, 46);
+}
+
+.direction {
+  border-bottom: solid 2px rgb(231, 231, 231);
+}
+
+.product-price {
+  margin-bottom: 20px;
+}
+
+.description-link {
+  text-decoration: none;
+}
+
+.product-description {
+  margin-bottom: 30px;
+}
+
+#items {
+  margin-bottom: 40px;
+}
+
+.buy-button-c9 {
+  display: block;
+  background-color: rgb(228, 46, 46);
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 80px;
+  transition: all 0.5s;
+  font-weight: 600;
+}
+
+.buy-button-c9:hover {
+  background-color: white;
+  color: black;
+  border: solid 2px rgb(31, 31, 31);
+}
+
+.btn-tag {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-tag:hover {
+  text-decoration: none;
+  color: white;
+}
+/* ===== SECTION ONE STYLE END ===== */
+
+/* ===== SECTION TWO STYLE START ===== */
+.feature-section {
+  margin-top: 100px;
+  padding: 30px;
+  margin: auto;
+}
+
+.spec-card {
+  background-color: white;
+  margin-bottom: 50px;
+  padding: 50px;
+  border-radius: 50px;
+  filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.103));
+  transition: all 0.5s;
+}
+
+.feature-product {
+  margin: 20px;
+  color: rgb(110, 110, 110);
+  text-align: center;
+}
+
+.product-info-c9 {
+  font-family: "Harabara";
+  color: rgb(228, 46, 46);
+}
+
+/* ===== SECTION TWO STYLE END ===== */
+
+/* ===== SECTION THREE STYLE START ===== */
+/* === START OF CSS FLEXBOX STYLE === */
+/* Main flex container that holds related products and description */
+.flex-container {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.description-container {
+  flex: 40%;
+  text-align: center;
+}
+
+.related-container {
+  flex: 60%;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .description-container > * {
+    text-align: center;
+  }
+
+  .related-container > * {
+    text-align: center;
+  }
+}
+/* END OF MAIN FLEX CONTAINER */
+
+/* START OF DESCRIPTION STYLE */
+.description-header {
+  margin-bottom: 30px;
+  font-family: "Harabara";
+}
+
+.description-container {
+  margin-bottom: 50px;
+}
+
+.related-title {
+  font-family: "Harabara";
+}
+/* END OF DESCRIPTION STYLE */
+
+/* START OF RELATED PRODUCT FELX CONTAINER */
+/* Product flex container */
+.flex-product {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* Individual container properties */
+.related-header {
+  margin-top: 50px;
+}
+
+.related-img {
+  margin-top: 50px;
+}
+
+.related-img:hover {
+  cursor: pointer;
+}
+
+.related-price {
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+.view-product-c9 {
+  margin-top: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+  background-color: rgb(228, 46, 46);
+  transition: all 0.5s;
+}
+
+.view-product-c9:hover {
+  background-color: rgb(150, 24, 24);
+}
+/* END OF RELATED PRODUCT FELX CONTAINER */
+/* === START OF CSS FLEXBOX STYLE === */
+
+/* Related/Description styling */
+.related-header {
+  margin-left: 10px;
+}
+
+.related-price {
+  margin-left: 10px;
+}
+/* ===== SECTION THREE STYLE END ===== */
+
+/* ===== SECTION FOUR STYLE START ===== */
+.review-header {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Harabara";
+}
+
+.accordion-item {
+  border: none;
+}
+
+.accordion-button {
+  padding-left: 25px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: rgb(241, 241, 241);
+  border-radius: 10px;
+  font-size: medium;
+  border: none;
+}
+
+.accordion {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.star-icon {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+/* Syle the checked stars */
+.checked {
+  color: rgb(255, 171, 14);
+}
+
+.footer-header {
+  font-family: "Harabara";
+}
+/* ===== SECTION FOUR STYLE END ===== */
+/* ========== PRODUCT PAGE ONE(C9) STYLE END ========== */
+
+/* ==================================================================== */
+.contact-header {
+  margin-bottom: 40px;
+  font-family: "Harabara";
+}
+
+.wrap-input {
+  margin-top: 20px;
+}
+
+.name {
+  width: 250px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border: solid 2px rgb(31, 31, 31);
+  padding-left: 20px;
+}
+
+.message {
+  height: 100px;
+  border-radius: 25px;
+}
+
+.submit {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  background-color: white;
+  font-size: larger;
+  border: solid 2px rgb(31, 31, 31);
+  transition: all 0.3s;
+}
+
+.submit:hover {
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
+/* ==================================================================== */
+
+/* ========== PRODUCT PAGE TWO(M9) STYLE START ==========  */
+
+.m9-banner {
+  font-family: "Harabara";
+  background-color: rgb(32, 203, 233);
+}
+
+.b-item-m9 {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(31, 31, 31);
+}
+
+.b-item-m9:hover {
+  color: rgb(32, 203, 233);
+}
+
+.buy-button-m9 {
+  display: block;
+  background-color: rgb(32, 203, 233);
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 80px;
+  transition: all 0.5s;
+  font-weight: 600;
+}
+
+.buy-button-m9:hover {
+  background-color: white;
+  color: black;
+  border: solid 2px rgb(31, 31, 31);
+}
+
+.product-info-m9 {
+  font-family: "Harabara";
+  color: rgb(32, 203, 233);
+}
+
+.view-product-m9 {
+  margin-top: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+  background-color: rgb(32, 203, 233);
+  transition: all 0.5s;
+}
+
+.view-product-m9:hover {
+  background-color: rgb(15, 138, 160);
+}
+
+/* ========== PRODUCT PAGE TWO(M9) STYLE END ==========  */
+
+/* ========== PRODUCT PAGE THREE(S9R) STYLE START ==========  */
+
+.s9r-banner {
+  font-family: "Harabara";
+  background-color: rgb(30, 88, 177);
+}
+
+.b-item-s9r {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(31, 31, 31);
+}
+
+.b-item-s9r:hover {
+  color: rgb(30, 88, 177);
+}
+
+.buy-button-s9r {
+  display: block;
+  background-color: rgb(30, 88, 177);
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 80px;
+  transition: all 0.5s;
+  font-weight: 600;
+}
+
+.buy-button-s9r:hover {
+  background-color: white;
+  color: black;
+  border: solid 2px rgb(31, 31, 31);
+}
+
+.product-info-s9r {
+  font-family: "Harabara";
+  color: rgb(30, 88, 177);
+}
+
+.view-product-s9r {
+  margin-top: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+  background-color: rgb(30, 88, 177);
+  transition: all 0.5s;
+}
+
+.view-product-s9r:hover {
+  background-color: rgb(11, 46, 100);
+}
+
+/* ========== PRODUCT PAGE THREE(S9R) STYLE END ==========  */
+
+/* ========== PRODUCT PAGE FOUR(T9) STYLE START ==========  */
+
+.t9-banner {
+  font-family: "Harabara";
+  background-color: rgb(2, 209, 81);
+}
+
+.b-item-t9 {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(31, 31, 31);
+}
+
+.b-item-t9:hover {
+  color: rgb(2, 209, 81);
+}
+
+.buy-button-t9 {
+  display: block;
+  background-color: rgb(2, 209, 81);
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 80px;
+  transition: all 0.5s;
+  font-weight: 600;
+}
+
+.buy-button-t9:hover {
+  background-color: white;
+  color: black;
+  border: solid 2px rgb(31, 31, 31);
+}
+
+.product-info-t9 {
+  font-family: "Harabara";
+  color: rgb(2, 209, 81);
+}
+
+.view-product-t9 {
+  margin-top: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+  background-color: rgb(2, 209, 81);
+  transition: all 0.5s;
+}
+
+.view-product-t9:hover {
+  background-color: rgb(2, 124, 49);
+}
+
+/* ========== PRODUCT PAGE FOUR(T9) STYLE END ==========  */
+
+/* ========== PRODUCT PAGE FIVE(X9X) STYLE START ==========  */
+
+.x9x-banner {
+  font-family: "Harabara";
+  background-color: rgb(148, 202, 21);
+}
+
+.b-item-x9x {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(31, 31, 31);
+}
+
+.b-item-x9x:hover {
+  color: rgb(148, 202, 21);
+}
+
+.buy-button-x9x {
+  display: block;
+  background-color: rgb(148, 202, 21);
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 80px;
+  transition: all 0.5s;
+  font-weight: 600;
+}
+
+.buy-button-x9x:hover {
+  background-color: white;
+  color: black;
+  border: solid 2px rgb(31, 31, 31);
+}
+
+.product-info-x9x {
+  font-family: "Harabara";
+  color: rgb(148, 202, 21);
+}
+
+.view-product-x9x {
+  margin-top: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+  background-color: rgb(148, 202, 21);
+  transition: all 0.5s;
+}
+
+.view-product-x9x:hover {
+  background-color: rgb(83, 116, 6);
+}
+
+/* ========== PRODUCT PAGE FIVE(X9X) STYLE END ==========  */
